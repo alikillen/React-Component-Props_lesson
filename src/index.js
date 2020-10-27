@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./styles/index.css"
+import App from "./components/App.js"
 
 // const styles = {color: "blue", textAlign: "center"}
 
 ReactDOM.render(
-  <h1 className="title">welcome to my react app</h1>,
+  <App/>,
   document.getElementById('root')
 );
 
